@@ -117,8 +117,8 @@ export default {
     
     // 添加 API URL 变量
     const apiUrl = import.meta.env.VITE_API_BASE_URL 
-      ? `${import.meta.env.VITE_API_BASE_URL}/api/wine-inventories/import`
-      : '/api/wine-inventories/import';
+      ? `${import.meta.env.VITE_API_BASE_URL}/api/wine-inventories/import-with-aspose`
+      : '/api/wine-inventories/import-with-aspose';
 
     const columns = [
       { name: 'wineType', label: 'wineType', field: 'wineType', sortable: true, align: 'left' },
@@ -131,6 +131,9 @@ export default {
       { name: 'format', label: 'format', field: 'format', sortable: true, align: 'left' },
       { name: 'tradePrice', label: 'tradePrice', field: 'tradePrice', sortable: true, align: 'right' },
       { name: 'quantity', label: 'quantity', field: 'quantity', sortable: true, align: 'right' },
+      { name: 'retailPrice', label: 'retailPrice', field: 'retailPrice', sortable: true, align: 'right' },
+      { name: 'distributorPrice', label: 'distributorPrice', field: 'distributorPrice', sortable: true, align: 'right' },
+      { name: 'costPrice', label: 'costPrice', field: 'costPrice', sortable: true, align: 'right' },
       { name: 'subWineType', label: 'SUB_WINE_TYPE', field: 'subWineType', sortable: true, align: 'left' },
       { name: 'subWinery', label: 'SUB_WINERY', field: 'subWinery', sortable: true, align: 'left' },
       { name: 'createdAt', label: '创建时间', field: 'createdAt', sortable: true, align: 'left' },

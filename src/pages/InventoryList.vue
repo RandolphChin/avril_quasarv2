@@ -96,8 +96,8 @@ export default {
     
     // 添加 API URL 变量
     const apiUrl = import.meta.env.VITE_API_BASE_URL 
-      ? `${import.meta.env.VITE_API_BASE_URL}/api/wine-stocks/import`
-      : '/api/wine-stocks/import';
+      ? `${import.meta.env.VITE_API_BASE_URL}/api/wine-stocks/import-with-aspose`
+      : '/api/wine-stocks/import-with-aspose';
     const columns = [
       { name: 'id', label: 'ID', field: 'id', sortable: true, align: 'left' },
       { name: 'firstLevelCategory', label: '一级分类', field: 'firstLevelCategory', sortable: true, align: 'left' },
