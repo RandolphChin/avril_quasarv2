@@ -2,7 +2,7 @@
   <q-page padding>
     <div class="q-pa-md">
       <div class="row q-mb-md justify-between">
-        <div class="text-h5">Montrachet列表</div>
+        <div class="text-h5">Montrachet列表(导入模板最后列添加上标题"Remark")</div>
         <div>
           <q-btn color="primary" label="导入" icon="upload" @click="showImportDialog" class="q-mr-sm" />
           <q-btn color="secondary" label="导出" icon="download" @click="exportData" class="q-mr-sm" />
