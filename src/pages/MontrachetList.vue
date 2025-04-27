@@ -131,6 +131,7 @@ export default {
       { name: 'format', label: 'format', field: 'format', sortable: true, align: 'left' },
       { name: 'tradePrice', label: 'tradePrice', field: 'tradePrice', sortable: true, align: 'right' },
       { name: 'quantity', label: 'quantity', field: 'quantity', sortable: true, align: 'right' },
+      { name: 'remark', label: 'remark', field: 'remark', sortable: true, align: 'right' },
       { name: 'retailPrice', label: 'retailPrice', field: 'retailPrice', sortable: true, align: 'right' },
       { name: 'distributorPrice', label: 'distributorPrice', field: 'distributorPrice', sortable: true, align: 'right' },
       { name: 'costPrice', label: 'costPrice', field: 'costPrice', sortable: true, align: 'right' },

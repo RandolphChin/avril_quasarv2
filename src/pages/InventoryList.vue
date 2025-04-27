@@ -105,6 +105,7 @@ export default {
       { name: 'productCode', label: '商品编号', field: 'productCode', sortable: true, align: 'left' },
       { name: 'productName', label: '商品名称', field: 'productName', sortable: true, align: 'left' },
       { name: 'englishName', label: '英文名', field: 'englishName', sortable: true, align: 'left' },
+      { name: 'bookInventory', label: '账面库存', field: 'bookInventory', sortable: true, align: 'right' },
       { name: 'sellableInventory', label: '可销售库存', field: 'sellableInventory', sortable: true, align: 'right' },
       { name: 'cateringPrice', label: '餐饮售价', field: 'cateringPrice', sortable: true, align: 'right', format: val => `¥${val}` },
       { name: 'specification', label: '规格', field: 'specification', sortable: true, align: 'left' },
